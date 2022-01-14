@@ -1,0 +1,57 @@
+06-02-2018
+Software compatibility with V2.0 rev. A maintained.
+
+Proposed changes:
+    PSB:
+        Update notation (separate names and silkscreen with extra gerber for manufacture)
+        RGB LED (ws2813 et al, or separate driver, LP5521 or LM2755 seem cheap and powerful)
+        Piezo sounder addition?
+    EPS:
+        501K awkward resistor value. Replace with 505, 510, 511K, or network of standard resistors for correct value.
+    PSB:
+        Clean up stubs
+        Zero size ident on TMP102
+    RFP:
+        stop copper short of board edge
+        Resist on dipole mount bottom side?
+
+Implemented changes:
+    PSB:
+        Removal of serial bridge circuitry
+        Connection of hardware serial to camera module over PQ60 bus
+        Fix silkscreen errors (G1 -> SDA)
+        Updating silkscreen dates, revisions etc.
+        Added LED and resistor to GPIO12
+        Fixed FX8C drill holes and rerouted accordingly
+        Fixed Camera B4B JST connector orientation
+        Added cathode markings to silkscreen generation
+    EPS:
+        Adjust PTH positions to avoid sharp pins puncturing battery (and advise roscan to clip excess)
+        Move connectors to accommodate battery dimensions correctly (Battery connector beside header)
+        Move jumper further out for accessibility (but not too far we can't fit the panel)
+        Pull down resistors on switched outputs
+        3.3v system voltage instead of 3.0
+        LDO input and output capacitors (RTFDS)
+        BQ charge regulater - RTFDS! caps, programming resistors etc.
+        Shink tag-connect footprint
+        Remove paste layer from tag-connect footprint
+        Smaller oscillator
+        Remove duplicate SWD connections
+        Remove voltage divider BJT switches
+        Increase divider precision
+        Silkscreen, make jumper location obvious and polarity markings bigger
+    OBC:
+        Fix IMU address pullups
+        Increase IMU supply capacitance
+        Correct SD socket footprint
+        Add reprogram button
+        Move u.fl further from radio module
+        Update RFM69 pinout
+        Connector locations for ease of access
+        Mosfet switching to reset SD card. 
+    RFP:
+        Change dimensions to suit structure
+        Update silkscreen
+        Fix groundplane
+        Adjust silkscreen for visibility when in structure
+        Add orientation markings

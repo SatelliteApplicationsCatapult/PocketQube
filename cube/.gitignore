@@ -1,0 +1,4 @@
+.project
+.cproject
+extras/doxygen/html
+extras/doxygen/latex

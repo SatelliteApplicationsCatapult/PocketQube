@@ -1,0 +1,5 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"TP_SIGNAL_NAME";
+"4";"2MMPILLAR";"2MMPILLAR";"2MMPILLAR";"U$5, U$6, U$7, U$8";"";"";
+"1";"ANTENNA";"ANTENNA_U.FL";"U.FL";"ANTENNA";"U.FL Antenna Connector";"";
+"4";"FIDUCIAL";"FIDUCIAL";"FIDUCIAL_1MM";"FD1, FD2, FD3, FD4";"For use by pick and place machines to calibrate the vision/machine, 1mm";"";
+"1";"TPSQTP20SQ";"TPSQTP20SQ";"TP20SQ";"RADIATOR";"Test pad";"";

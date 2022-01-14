@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+  Copyright : 2012 Freescale, Inc. All Rights Reserved.
+
+  This configuration file is a standard interchange file that's format is maintained
+  by Freescale, Inc. The configuration file is a derivative work
+  of the Processor Expert Software technology licensed for use by customers
+  as defined as SOFTWARE in the product's End User License Agreement. This file
+  and format are free to use and distribute for read-only purposes. You do not have
+  the right to create these files or modify this format or use for any purposes other
+  than interchange with the Processor Expert Software technology.
+
+  THIS SOFTWARE IS PROVIDED "AS IS".
+
+  NO WARRANTIES, WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING, BUT NOT
+  LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+  PURPOSE APPLY TO THIS SOFTWARE. IN NO EVENT WILL FREESCALE BE LIABLE, WHETHER
+  IN CONTRACT, TORT, OR OTHERWISE, FOR ANY INCIDENTAL, SPECIAL, INDIRECT,
+  CONSEQUENTIAL OR PUNITIVE DAMAGES, INCLUDING, BUT NOT LIMITED TO, DAMAGES FOR
+  ANY LOSS OF USE, LOSS OF TIME, INCONVENIENCE, COMMERCIAL LOSS, OR LOST PROFITS,
+  SAVINGS, OR REVENUES TO THE FULL EXTENT SUCH MAY BE DISCLAIMED BY LAW.
+
+-->
+<export xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ProjectInfoDescription.xsd">
+  <PROCESSOR>
+    <DeviceID>MKL02Z32xxx4</DeviceID>
+    <CoreNum>1</CoreNum>
+    <Cores>
+      <Core>
+        <CoreSet>Cortex-M0+</CoreSet>
+      </Core>
+    </Cores>
+    <SRAMsize>4096</SRAMsize>
+    <FLASHsize>32k</FLASHsize>
+  </PROCESSOR>
+  <PATHS>
+    <LinkerCommandFile>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Project_Settings/Linker_Files/ProcessorExpert.ld</LinkerCommandFile>
+    <IncludePaths>
+      <Path>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Static_Code/PDD/</Path>
+      <Path>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Static_Code/IO_Map/</Path>
+      <Path>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Sources/</Path>
+      <Path>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Generated_Code/</Path>
+    </IncludePaths>
+    <SourceCodePaths>
+      <Path>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Generated_Code/</Path>
+      <Path>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Project_Settings/Startup_Code/</Path>
+      <Path>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Sources/</Path>
+    </SourceCodePaths>
+  </PATHS>
+  <FILES>
+    <GeneratedCs>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Generated_Code/ADC_MODULE.c</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Generated_Code/AUX_TP.c</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Generated_Code/BAT_VSEN_EN.c</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Generated_Code/BUS_3V3_SW1_EN.c</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Generated_Code/BUS_3V3_SW2_EN.c</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Generated_Code/BUS_3V3_SW3_EN.c</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Generated_Code/BUS_BAT_SW1_EN.c</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Generated_Code/BUS_BAT_SW2_EN.c</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Generated_Code/Cpu.c</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Generated_Code/I2C2.c</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Generated_Code/KSDK1.c</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Generated_Code/OBC_IRQ.c</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Generated_Code/OPTO_SHDN.c</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Generated_Code/PE_LDD.c</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Generated_Code/RAW_BAT_ISEN_EN.c</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Generated_Code/SOL_VSEN_EN.c</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Generated_Code/USB_SHDN.c</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Generated_Code/Vectors.c</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Generated_Code/WAIT1.c</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Generated_Code/WDI_TIMER.c</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Generated_Code/WD_WDI.c</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Project_Settings/Startup_Code/startup.c</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Sources/COMS.c</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Sources/Events.c</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Sources/WDT.c</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Sources/main.c</PathName>
+    </GeneratedCs>
+    <GeneratedHs>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Generated_Code/ADC_MODULE.h</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Generated_Code/AUX_TP.h</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Generated_Code/BAT_VSEN_EN.h</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Generated_Code/BUS_3V3_SW1_EN.h</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Generated_Code/BUS_3V3_SW2_EN.h</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Generated_Code/BUS_3V3_SW3_EN.h</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Generated_Code/BUS_BAT_SW1_EN.h</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Generated_Code/BUS_BAT_SW2_EN.h</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Generated_Code/Cpu.h</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Generated_Code/I2C2.h</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Generated_Code/IO_Map.h</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Generated_Code/KSDK1.h</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Generated_Code/OBC_IRQ.h</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Generated_Code/OPTO_SHDN.h</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Generated_Code/PE_Const.h</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Generated_Code/PE_Error.h</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Generated_Code/PE_LDD.h</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Generated_Code/PE_Types.h</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Generated_Code/RAW_BAT_ISEN_EN.h</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Generated_Code/SOL_VSEN_EN.h</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Generated_Code/USB_SHDN.h</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Generated_Code/WAIT1.h</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Generated_Code/WDI_TIMER.h</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Generated_Code/WD_WDI.h</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Sources/COMS.h</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Sources/Events.h</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Sources/WDT.h</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Static_Code/IO_Map/MKL02Z4.h</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Static_Code/PDD/ADC_PDD.h</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Static_Code/PDD/CMP_PDD.h</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Static_Code/PDD/COP_PDD.h</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Static_Code/PDD/FTFA_PDD.h</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Static_Code/PDD/GPIO_PDD.h</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Static_Code/PDD/I2C_PDD.h</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Static_Code/PDD/LPTMR_PDD.h</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Static_Code/PDD/MCG_PDD.h</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Static_Code/PDD/MCM_PDD.h</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Static_Code/PDD/OSC_PDD.h</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Static_Code/PDD/PDD_Types.h</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Static_Code/PDD/PORT_PDD.h</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Static_Code/PDD/SIM_PDD.h</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Static_Code/PDD/SPI_PDD.h</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Static_Code/PDD/SysTick_PDD.h</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Static_Code/PDD/TPM_PDD.h</PathName>
+      <PathName>/home/ubo/Documents/Repositories/UboEPS/EPS_Dev/Static_Code/PDD/UART0_PDD.h</PathName>
+    </GeneratedHs>
+  </FILES>
+  <OPTIONS>
+  </OPTIONS>
+</export>

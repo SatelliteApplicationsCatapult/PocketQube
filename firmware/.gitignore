@@ -1,0 +1,31 @@
+###### EPS_Firmware ######
+EPS_Firmware/Debug/
+EPS_Firmware/Documentation/
+EPS_Firmware/.cwGeneratedFileSetLog
+EPS_Firmware/.EPS_Firmware.g_c
+EPS_Firmware/.EPS_Firmware.g_x
+EPS_Firmware/.settings/language.settings.xml
+
+######  EPS_Basic   ######
+EPS_Basic/Debug/
+EPS_Basic/Documentation/
+EPS_Basic/.cwGeneratedFileSetLog
+EPS_Basic/.EPS_Basic.g_c
+EPS_Basic/.EPS_Basic.g_x
+EPS_BASIC/.settings/language.settings.xml
+
+######   EPS_UART   ######
+EPS_UART/Debug/
+EPS_UART/Documentation/
+EPS_UART/.cwGeneratedFileSetLog
+EPS_UART/.EPS_UART.g_c
+EPS_UART/.EPS_UART.g_x
+EPS_UART/.settings/language.settings.xml
+
+######    EPS_Dev   ######
+EPS_Dev/Debug/
+EPS_Dev/Documentation/
+EPS_Dev/.cwGeneratedFileSetLog
+EPS_Dev/.EPS_Dev.g_c
+EPS_Dev/.EPS_Dev.g_x
+EPS_Dev/.settings/language.settings.xml 

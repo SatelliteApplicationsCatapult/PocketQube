@@ -1,0 +1,13 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"MPN";"OC_FARNELL";"OC_NEWARK";"PACKAGE";"SUPPLIER";
+"2";"";"PINHD-1X9";"1X09-BIG";"JP2, JP5";"Pin header 1x10 0.1" spacing";"";"";"";"";"";
+"1";"";"PINHD-2X6";"2X06-CLEANBIG";"JP1";"PIN HEADER";"";"";"";"";"";
+"1";"";"SJ";"SJ";"SJ1";"SMD solder JUMPER";"";"";"";"";"";
+"5";"220R";"R-EU_R0402";"R0402";"R1, R5, R8, R9, R10";"RESISTOR, European symbol";"";"";"";"";"";
+"2";"330R";"R-EU_R0402";"R0402";"R6, R7";"RESISTOR, European symbol";"";"";"";"";"";
+"4";"FIDUCIAL";"FIDUCIAL";"FIDUCIAL_1MM";"FD1, FD2, FD3, FD4";"For use by pick and place machines to calibrate the vision/machine, 1mm";"";"";"";"";"";
+"1";"FX8C-060P-SV(92)";"FX8C-060P-SV(92)";"FX8C-060P-SV(92)";"H2";"";"";"";"";"";"";
+"1";"FX8C-060S-SV(92)";"FX8C-060S-SV(92)";"FX8C-060S-SV(92)";"H1";"";"";"";"";"";"";
+"2";"JST-PH_4-PIN_HEADER";"JST-PH_4-PIN_HEADER";"JST_B4B-PH_HEADER";"J5, J6";"4-pin JST PH Shrouded Header, top entry";"";"";"";"";"";
+"7";"LED-0402";"LED-0402";"0402-LED";"BLUE, GREEB@2, GREEN@1, GREEN@3, RED, YELLOW@1, YELLOW@2";"";"";"";"";"";"";
+"1";"SI1146";"SI1146";"QFN-10";"IC1";"PROXIMITY/UV/AMBIENT LIGHT SENSOR IC WITH I2C INTERFACE";"";"";"";"";"";
+"1";"TMP102AIDRLT";"TMP102AIDRLT";"SOT50P160X60-6N";"U1";"Temperature Sensor";"TMP102AIDRLT";"1652477";"53M3987";"SOT-23-6";"Texas Instruments";

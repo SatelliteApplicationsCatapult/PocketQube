@@ -1,0 +1,10 @@
+# Automatically normalise all line endings in repository
+*	text=auto
+*.ino	text	diff=cpp
+*.cpp	text	diff=cpp
+*.h	text	diff=cpp
+*.pde	text	diff=cpp
+*.pdf	-text
+*.png	-text
+*.jpg	-text
+*.jpeg	-text

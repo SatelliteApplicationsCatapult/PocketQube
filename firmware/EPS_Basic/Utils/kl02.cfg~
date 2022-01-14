@@ -1,0 +1,6 @@
+#
+# Freescale Kinetis KL02 devices
+#
+
+set CHIPNAME kl02
+#source [find /home/ubo/Documents/Repositories/UboEPS/EPS_Basic/Utils/klx.cfg]

@@ -1,0 +1,10 @@
+(module JST_ZH_B2B (layer F.Cu) (tedit 570236B7)
+  (fp_text reference PTH (at -3.15 -0.35) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value JST_ZH_B2B (at 0 -1.85) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole oval (at -0.75 0) (size 1 2) (drill 0.7) (layers *.Cu *.Mask F.SilkS))
+  (pad 2 thru_hole oval (at 0.75 0) (size 1 2) (drill 0.7) (layers *.Cu *.Mask))
+)

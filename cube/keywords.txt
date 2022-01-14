@@ -1,0 +1,27 @@
+#######################################
+# Syntax Coloring Map For Cube
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+solarCurrent	KEYWORD1	solarCurrent
+solarVoltage	KEYWORD1	solarVoltage
+busCurrent	KEYWORD1	busCurrent
+busVoltage	KEYWORD1	busVoltage
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+initialise	KEYWORD2
+pluginPayload	KEYWORD2
+sleep	KEYWORD2
+heartbeat	KEYWORD2
+checkFaults	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
